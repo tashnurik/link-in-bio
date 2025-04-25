@@ -3,8 +3,21 @@
     border: 1px red dashed;
   }
 
+  a {
+    color:white;
+    text-decoration: none;
+  }
+
+  html {
+    min-height: 100%; /* background will now repeat itself*/
+  }
+
   body {
+    color: white;
+    min-height: 100%; /* background will now repeat itself*/
     padding: 40px 0px;
+    background: linear-gradient(180deg, #000000, #005c66);
+    font-family: Comic Sans MS;
   }
 
   .ava-image {
@@ -19,4 +32,40 @@
     height: 48px;
     object-fit: cover;
     border-radius: 48px;
+  }
+
+  .item {
+    background-color: rgba(4, 58, 52, 0.85);
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+  }
+
+  ,main-container {
+    max-width: 640px;
+    margin: auto;
+  }
+
+  .image-raw{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .name-raw {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Georgia";
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .social-icons-raw {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .link-text {
+    text-align: center;
+    flex-grow: 1;
   }
