@@ -1,0 +1,22 @@
+
+  * {
+    border: 1px red dashed;
+  }
+
+  body {
+    padding: 40px 0px;
+  }
+
+  .ava-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover; /*if image looks squashed, try it*/
+    border-radius: 128px; /*circular profile picture*/
+  }
+
+  .icon {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 48px;
+  }
