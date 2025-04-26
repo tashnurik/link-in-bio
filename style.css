@@ -9,7 +9,7 @@
   }
 
   html {
-    min-height: 100%; /* background will now repeat itself*/
+    min-height: 100%; /* background will not repeat itself*/
   }
 
   body {
@@ -17,14 +17,13 @@
     min-height: 100%; /* background will now repeat itself*/
     padding: 40px 0px;
     background: linear-gradient(180deg, #000000, #005c66);
-    font-family: Comic Sans MS;
   }
 
   .ava-image {
     width: 128px;
     height: 128px;
     object-fit: cover; /*if image looks squashed, try it*/
-    border-radius: 128px; /*circular profile picture*/
+    border-radius: 128px; /*circular profile picture;*/
   }
 
   .icon {
@@ -46,20 +45,19 @@
     margin: auto;
   }
 
-  .image-raw {
+  .image-row {
     margin-bottom: 20px;
     text-align: center;
   }
 
-  .name-raw {
+  .name-row {
     margin-bottom: 30px;
     text-align: center;
-    font-family: "Georgia";
     font-size: 24px;
     font-weight: 900;
   }
 
-  .social-icons-raw {
+  .social-icons-row {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
