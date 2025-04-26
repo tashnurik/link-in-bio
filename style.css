@@ -1,7 +1,7 @@
 
-  * {
+  /* * {
     border: 1px red dashed;
-  }
+  } */
 
   a {
     color:white;
@@ -17,6 +17,7 @@
     min-height: 100%; /* background will now repeat itself*/
     padding: 40px 0px;
     background: linear-gradient(180deg, #000000, #005c66);
+    font-family: Tahoma;
   }
 
   .ava-image {
@@ -34,10 +35,14 @@
   }
 
   .item {
-    background-color: rgba(38, 229, 200, 0.8);
+    background-color: rgba(29, 166, 146, 0.8);
     margin-bottom: 20px;
     align-items: center;
     display: flex;
+    border-radius: 1000px;
+    padding: 5px;
+    padding-right: 53px;
+    box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
   }
 
   .main-container {
@@ -53,6 +58,8 @@
   .name-row {
     margin-bottom: 30px;
     text-align: center;
+
+    font-family: Georgia;
     font-size: 24px;
     font-weight: 900;
   }
