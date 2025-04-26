@@ -35,18 +35,18 @@
   }
 
   .item {
-    background-color: rgba(4, 58, 52, 0.85);
+    background-color: rgba(38, 229, 200, 0.8);
     margin-bottom: 20px;
     align-items: center;
     display: flex;
   }
 
-  ,main-container {
+  .main-container {
     max-width: 640px;
     margin: auto;
   }
 
-  .image-raw{
+  .image-raw {
     margin-bottom: 20px;
     text-align: center;
   }
