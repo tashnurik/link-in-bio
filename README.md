@@ -1,2 +1,2 @@
-# Link In Bio
-Links that I would like to share
+# This is my Landing page
+Here you can find info about me
